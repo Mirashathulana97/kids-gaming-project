@@ -1,0 +1,215 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(screen-3blur.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+h1{
+	text-align: center;
+	color:rgb(228, 217, 255);
+	font-size: 60px;
+	font-family: 'Trebuchet MS', sans-serif;
+
+	
+}
+.divSignUp{
+	width: 300px;
+	padding: 30px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(113, 128, 172, 0.7);
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+	display: none;
+	
+	
+}
+.divLogin{
+	width: 300px;
+	padding: 30px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(113, 128, 172, 0.7);
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+	display: none;
+	
+}
+.divSignUp input[type="text"],[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto ;
+	text-align: center;
+	border: 3px solid rgb(43, 69, 112);
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	color: rgb(43, 69, 112);
+	border-radius: 50px 50px 50px 50px;
+	transition: 0.25px;
+
+}
+.divSignUp input[type="text"]:focus{
+	width: 270px;
+	border-color: rgb(168, 208, 219);
+
+}
+.divSignUp input[type="password"]:focus{
+	width: 270px;
+	border-color: rgb(168, 208, 219);
+
+}
+.divSignUp input[type="submit"]{
+	font-weight: 10px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid rgb(43, 69, 112);
+	padding: 10px 10px;
+	width: 100px;
+	outline: none;
+	color: rgb(43, 69, 112);
+	border-radius: 40px 40px 40px 40px;
+	transition: 0.25px;
+	cursor: pointer;
+	font-size: 15px;
+
+
+}
+.divSignUp input[type="submit"]:hover{
+	background: rgb(43, 69, 112);
+	color: rgb(168, 208, 219);
+}
+.divLogin input[type="text"],[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto ;
+	text-align: center;
+	border: 3px solid rgb(43, 69, 112);
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	color: rgb(43, 69, 112);
+	border-radius: 50px 50px 50px 50px;
+	transition: 0.25px;
+
+}
+.divLogin input[type="text"]:focus{
+	width: 270px;
+	border-color: rgb(168, 208, 219);
+
+}
+.divLogin input[type="password"]:focus{
+	width: 270px;
+	border-color: rgb(168, 208, 219);
+
+}
+.divLogin input[type="submit"]{
+	font-weight: 10px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid rgb(43, 69, 112);
+	padding: 10px 10px;
+	width: 100px;
+	outline: none;
+	color: rgb(43, 69, 112);
+	border-radius: 40px 40px 40px 40px;
+	transition: 0.25px;
+	cursor: pointer;
+	font-size: 15px;
+
+
+}
+.divLogin input[type="submit"]:hover{
+	background: rgb(43, 69, 112);
+	color: rgb(168, 208, 219);
+}
+::placeholder{
+	color: rgb(43, 69, 112);
+}
+h2{
+
+	color: rgb(43, 69, 112);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 40px;
+	font-family: 'Trebuchet MS', sans-serif;
+
+}
+.divBoth{
+	width: 300px;
+	padding: 30px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(113, 128, 172, 0.7);
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+}
+.divBoth button[type="submit"]{
+	font-weight: 10px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid rgb(43, 69, 112);
+	padding: 10px 10px;
+	width: 150px;
+	outline: none;
+	color: rgb(43, 69, 112);
+	border-radius: 40px 40px 40px 40px;
+	transition: 0.25px;
+	cursor: pointer;
+	font-size: 15px;
+}
+.divBoth button[type="submit"]:hover{
+	background: rgb(43, 69, 112);
+	color: rgb(168, 208, 219);
+}
+.backbutton button[type="submit"]{
+	position: absolute;
+	top: 80%;
+	left: 80%;
+	font-weight: 10px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid rgb(43, 69, 112);
+	padding: 10px 10px;
+	width: 100px;
+	outline: none;
+	color: rgb(43, 69, 112);
+	border-radius: 40px 40px 40px 40px;
+	transition: 0.25px;
+	cursor: pointer;
+	font-size: 15px;
+}
+.backbutton button[type="submit"]:hover{
+	background: rgb(43, 69, 112);
+	color: rgb(168, 208, 219);
+}
+h3{
+	color: rgb(43, 69, 112);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 40px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
